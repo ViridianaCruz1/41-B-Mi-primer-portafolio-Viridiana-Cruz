@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio personal VC</title>
 </head>
-<body>
+<body bgcolor="#d3d3d3">
     <header>
         <!-- Imagen de perfil -->
-         <img src="pp.jpg">
+        <img src="profilePicture.jpg" alt="Profile Picture Viridiana Cruz" style="height: 200px; width: 180px;">
         <h1>Viridiana Cruz</h1>
         <p>Ingeniera mecánica | Actual ingeniera de arneses eléctricos automotrices | Próxima desarrolladora fullstack </p>
     </header>
 
     <nav>
-            <a href="#aboutMe">About me</a>
-            <a href="#experiencias">Experiencias</a>
-            <a href="#educacion">Educación</a>
+            <a href="#aboutMe">About me | </a>
+            <a href="#educacion"> Educación | </a>
+            <a href="#experiencias"> Experiencia | </a>
+            <a href="#idiomas"> Idiomas | </a>
+            <a href="#skills"> Skills | </a>
     </nav>
 
     <!-- <nav>
@@ -30,54 +32,116 @@
         <section id="aboutMe">
             <!-- Titulo de seccion -->
             <h2>Sobre mí</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores accusamus vero temporibus excepturi deleniti nesciunt. Nulla suscipit possimus debitis?</p>
+            <p>Soy recién egresada de la licenciatura de ingeniería mecánica por la Universidad Iberiamericana Puebla.</p>
+            <p>Realicé mis prácticas profesionales en el área eléctrica automotriz en el extranjero (Turín, Italia) trabajando para grupo Stellantis, Maserati, Porsche, Ferrari, entre otros. Actualmente trabajo en esta misma área.</p>
+            <p>Me encuentro en capacitación para desarrollo web en el área de Frontend y me encantaría poder trabajar en un futuro como desarrolladora Fullstack.</p>
+        </section>
+        <section id="educacion">
+            <article>
+                <h2>Educación</h2>
+                <dl>
+                    <dt><h3>Licenciatura en ingeniería mecánica</h3></dt>
+                    <dd><p>IBERO Puebla  |  <dfn>2020 - 2024</dfn></p></dd>
+                    <dt><h3>JavaScript</h3></dt>
+                    <dd><p>Udemy  |  <dfn>2024</dfn></p></dd>
+                    <dt><h3>MATLAB Onramp</h3></dt>
+                    <dd><p>MathWorks  |  <dfn>2023</dfn></p></dd>
+                    <dt><h3>Diseño mecánico</h3></dt>
+                    <dd><p>Dassault Systèmes  |  <dfn>2022</dfn></p></dd>
+                </dl>
+            </article>
         </section>
         <section id="experiencias">
             <h2>Experiencia</h2>
             <article>
-                <h3>Ingeniera de arneses electricos</h3>
-                <p><strong>MICLA</strong> Abril 2024 | Actual</p>
+                <h3>Ingeniera de arneses eléctricos</h3>
+                <p><b>MICLA</b> Abril 2024 | Actual</p>
                 <ul>
-                    <li><p>Manejo de WL</p></li>
+                    <li><p>Diseño, creación e interpretación de planos eléctricos en 2D y 3D</p></li>
+                    <li><p>Manejo e interpretación de wire list</p></li>
                     <li><p>Uso del software ZUKEN</p></li>
                 </ul>
             </article>
         </section>
-        <section id="educacion">
+
+        
+        
+        <section id="idiomas">
+            <h2>Idiomas</h2>
             <article>
-                <h2>Educacion</h2>
-                <h3>IBERO Puebla</h3>
-                <p>Ingeniería mecánica</p>
+                <ul>
+                    <li><h3>Español</h3></li>
+                    <p><strong>Nativo</strong></p>
+                    <li><h3>Inglés</h3></li>
+                    <p><strong>B2 </strong><dfn>TOEFL</dfn></p>
+                    <li><h3>Alemán</h3></li>
+                    <p><strong>A2 </strong><dfn>Goethe Institut</dfn></p>
+                </ul>
+            </article>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>Hard Skills</h3>
+            <article>
+                <ul>
+                    <li>Ingeniería mecánica</li>
+                    <li>Diseño mecánico</li>
+                    <li>Manejo de softwares de diseño 2D y 3D</li>
+                    <li>Arneses eléctricos automotrices</li>
+                    <li>JavaScript</li>
+                </ul>
+                <h3>Soft Skills</h3>
+            <article>
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Liderazgo</li>
+                    <li>Resolución de problemas</li>
+                    <li>Eficiente</li>
+                    <li>Responsable</li>
+                </ul>
             </article>
         </section>
         <section id="contacto">
-            <h2>Contacto</h2>
+            <summary><h2>Contacto</h2></summary>
             <p>Correo electrónico: <a href="mailto: viridianacruz2010@gmail.com">viridianacruz2010@gmail.com</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/viridiana-cruz" target="_blank">Viridiana Cruz</a></p>
         </section>
-
+        
+        <details>
+        <summary>Para ponerte en contacto conmigo, ingresa tus datos: </summary>
         <form>
             <div>
-            <label for="nombre">Nombre: </label>
-            <input type="text" id="nombre" name="nombre" required>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required>
             </div>
             <div><p></p></div>
             <div>
-            <label for="email">Correo electrónico: </label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">Correo electrónico: </label>
+                <input type="email" id="email" name="email" required>
             </div>
             <div><p></p></div>
             <div>
-            <label for="mensaje">Mensaje: </label>
-            <input id="mensaje" name="mensaje" rows="4" required>
+                <label for="celular">Teléfono celular: </label>
+                <input type="number" id="celular" name="celular" required>
             </div>
             <div><p></p></div>
+            <div>
+                <label for="mensaje">Mensaje: </label>
+                <input id="mensaje" name="mensaje" rows="4" required>
+            </div>
+            <div><p>Deseo que se me contacte vía: </p></div>
+            <div>
+                <label><input type="radio" name="formaContacto" value="correo">Correo electrónico</label>
+                <label><input type="radio" name="formaContacto" value="celular" minlength="10" maxlength="13" required>Teléfono celular</label>
+            </div>
             <button type="submit">Enviar</button>
         </form>
-    </main>
+        </details>
+</main>
 
     <footer>
-        <p>&copy; 2024 Viridiana Cruz. Todos los derechos reservados</p>
+        <p>&copy; 2024 Viridiana Cruz. Puebla, Pue.</p>
     </footer>
 </body>
 </html>
