@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.centrado{
+    text-align: center; s
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu:hover{
+    background-color: white;
+    color: black;
+}
